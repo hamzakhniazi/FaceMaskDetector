@@ -26,8 +26,15 @@ ILR = 1e-4
 Instances = 20
 BS = 32
 
-DIRECTORY = r"/Users/hamzasultankhanniazi/Downloads/Face-Mask-Detection-master/dataset"
-#DIRECTORY = r"/Users/hamzasultankhanniazi/Downloads/Face-Mask-Detection-master/emptyDataset"
+# Change <PathName> to the local/desired dataset pathname and make sure there are two sub-directories named with_mask and without_mask in order to make this code work.
+
+
+#########################
+
+#DIRECTORY = r"<PathName>"
+#DIRECTORY = r"<PathName>/emptyDataset"
+
+#########################
 CATEGORIES = ["with_mask", "without_mask"]
 
 # grab the list of images in our dataset directory, then initialize
